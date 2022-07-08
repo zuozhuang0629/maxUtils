@@ -131,6 +131,7 @@ class MaxUtils {
         }
 
         if (!maxInter!!.isReady) {
+            maxInter?.loadAd()
             closeCall.invoke(false)
             return
         }
