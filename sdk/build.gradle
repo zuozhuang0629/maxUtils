@@ -38,7 +38,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation 'com.applovin:applovin-sdk:+'
+    api 'com.applovin:applovin-sdk:+'
     implementation 'com.applovin.mediation:adcolony-adapter:+'
     implementation 'com.applovin.mediation:inmobi-adapter:+'
     implementation 'com.squareup.picasso:picasso:2.71828'
